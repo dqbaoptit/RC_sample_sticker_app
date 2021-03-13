@@ -1,0 +1,25 @@
+.demo_list-container {
+  padding: 2rem 5rem;
+}
+.demo_list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.demo_list__img-container {
+  margin: 0.5rem;
+  width: 15%;
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title-container p {
+  font-size: 0.9rem;
+  color: #c6c6c6;
+  font-weight: bold;
+}
