@@ -1,8 +1,9 @@
+import { useState } from 'react';
+
 import { DemoList } from './containers';
 import { SearchBar } from './components';
 
 import './App.css';
-import { useState } from 'react';
 function App() {
   const [value, setValue] = useState('');
   return (
